@@ -16,6 +16,7 @@ export default function Navbar() {
     livpure: { path: '/livpure-service', logo: '/livpure-logo.png', alt: 'Livpure Logo' },
     lg: { path: '/lg-service', logo: '/lg-logo.png', alt: 'LG Logo' },
     vguard: { path: '/vguard-service', logo: '/vguard-logo.png', alt: 'V-Guard Logo' },
+    aosmith: { path: '/aosmith-service', logo: '/aosmith-logo.png', alt: 'A.O. Smith Logo' },
   }
 
   // Current page ka brand detect karo
@@ -44,7 +45,7 @@ export default function Navbar() {
             
             <div>
               <h1 className="font-poppins font-bold text-lg text-gray-900 leading-tight">
-                RO Service Center
+                RO Service Bangalore
               </h1>
               <p className="text-xs text-green-600 font-medium">● ONLINE 24x7</p>
             </div>
